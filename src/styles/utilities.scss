@@ -1,0 +1,51 @@
+.as-link {
+  color: #5b8adc !important;
+  cursor: pointer;
+}
+
+.hover-as-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-tiny {
+  font-size: 0.7rem;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.text-normal {
+  font-size: 1rem;
+}
+
+.text-large {
+  font-size: 1.2rem;
+}
+
+.border-radius {
+  border-radius: .25em;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.disabled-item {
+  opacity: 0.5;
+}

@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+
+.app-header {
+  position: fixed;
+  width: 100%;
+  height: $app-header-height;
+  border-bottom: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  z-index: 100;
+}
+
+.app-menu {
+  position: fixed;
+  top: $app-header-height;
+  width: $app-menu-width;
+  left: -$app-menu-width;
+  height: calc(100% - $app-header-height);
+  border-right: 1px solid #d3d3d3;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+  z-index: 100;
+  transition: left 0.5s ease 0.1s;
+  box-sizing: border-box;
+}
+
+.app-menu-open {
+  left: 0;
+}
+
+.app-contents {
+  padding-top: $app-header-height;
+  z-index: 10;
+}

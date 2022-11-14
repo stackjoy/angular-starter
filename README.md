@@ -9,6 +9,15 @@ This project uses:
 - Bootstrap v5 for layouts and utility classes
 - Fontawesome 6 icons (free set)
 
+## Install Dependencies
+
+Run `npm install` to install all necessary dependencies for this Angular project.
+
+## Start server
+
+Run `npm start` to start the angular project.
+
+
 ## Stackjoy Generators
 
 Run `sj` in a terminal at the root of this codebase to bring up generators for this project
@@ -16,10 +25,6 @@ Run `sj` in a terminal at the root of this codebase to bring up generators for t
 If [Stackjoy](https://www.stackjoy.com) is not installed, in your terminal type in: 
 
 `npm install stackjoy -g`
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Build
 
